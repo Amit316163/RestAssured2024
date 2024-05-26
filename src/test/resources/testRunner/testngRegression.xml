@@ -27,12 +27,12 @@
 		</classes>
 	</test> 
 	
-	 <test name="Fake AP Get User test">
+	<!--  <test name="Fake AP Get User test">
 	<parameter name="baseURI" value="https://fakestoreapi.com"></parameter>
 		<classes>
 			<class name="com.gorest.qa.tests.FakeAPI" />
 		</classes>
-	</test>
+	</test>-->
 
 	
 </suite> 

@@ -1,0 +1,6 @@
+com\gorest\qa\tests\FakeAPI.class
+com\gorest\qa\tests\ReqResTest.class
+com\gorest\qa\tests\GetTest.class
+com\gorest\qa\tests\EndToEndTest.class
+com\gorest\qa\tests\PostTest.class
+com\gorest\qa\base\BaseTest.class

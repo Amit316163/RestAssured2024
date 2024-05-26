@@ -1,0 +1,9 @@
+com\gorest\qa\rest\RestClient.class
+com\gorest\qa\utilities\StringUtils.class
+com\gorest\qa\config\ConfigurationManger.class
+com\gorest\qa\utilities\FrameworkException.class
+com\gorest\qa\utilities\JaywayValidator.class
+com\gorest\qa\utilities\HttpStatusCode.class
+com\gorest\qa\pojo\UserLombok.class
+com\gorest\qa\utilities\Constants.class
+com\gorest\qa\utilities\ExcelReader.class

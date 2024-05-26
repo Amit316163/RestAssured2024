@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Regression suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Go Rest API Get User test(failed)">
+    <parameter name="baseURI" value="https://gorest.co.in"/>
+    <classes>
+      <class name="com.gorest.qa.tests.GetTest">
+        <methods>
+          <include name="setRestClient"/>
+          <include name="getSingleUser"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.gorest.qa.tests.GetTest -->
+    </classes>
+  </test> <!-- Go Rest API Get User test(failed) -->
+</suite> <!-- Failed suite [API Regression suite] -->

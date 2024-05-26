@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T10:42:17 IST" name="API Regression suite" finished-at="2024-05-26T10:42:26 IST" duration-ms="8613">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T10:42:17 IST" name="Go Rest API Create User test" finished-at="2024-05-26T10:42:26 IST" duration-ms="8613">
+      <class name="com.gorest.qa.tests.PostTest">
+        <test-method is-config="true" signature="setUP(java.lang.String)[pri:0, instance:com.gorest.qa.tests.PostTest@25641d39]" started-at="2024-05-26T10:42:17 IST" name="setUP" finished-at="2024-05-26T10:42:17 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="setClient()[pri:0, instance:com.gorest.qa.tests.PostTest@25641d39]" started-at="2024-05-26T10:42:18 IST" name="setClient" finished-at="2024-05-26T10:42:18 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClient -->
+        <test-method signature="createSingleExcelUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gorest.qa.tests.PostTest@25641d39]" started-at="2024-05-26T10:42:18 IST" name="createSingleExcelUser" data-provider="createUserExcelData" finished-at="2024-05-26T10:42:22 IST" duration-ms="4405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSingleExcelUser -->
+        <test-method signature="createSingleExcelUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.gorest.qa.tests.PostTest@25641d39]" started-at="2024-05-26T10:42:22 IST" name="createSingleExcelUser" data-provider="createUserExcelData" finished-at="2024-05-26T10:42:26 IST" duration-ms="3220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSingleExcelUser -->
+        <test-method is-config="true" signature="setClient()[pri:0, instance:com.gorest.qa.tests.PostTest@25641d39]" started-at="2024-05-26T10:42:22 IST" name="setClient" finished-at="2024-05-26T10:42:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setClient -->
+      </class> <!-- com.gorest.qa.tests.PostTest -->
+    </test> <!-- Go Rest API Create User test -->
+  </suite> <!-- API Regression suite -->
+</testng-results>
